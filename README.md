@@ -26,20 +26,16 @@ char pop() {
 int pr(char elem) {
 
   switch (elem) {
-  
-    case '#':
-    
-      return 0;
-      
+        
     case '(':
     
-      return 1;
+      return 0;
       
     case '+':
     
     case '-':
     
-      return 2;
+      return 1;
       
     case '*':
     
@@ -47,11 +43,11 @@ int pr(char elem) {
     
     case '%':
     
-      return 3;
+      return 2;
       
     case '^':
     
-      return 4;
+      return 3;
       
   }
   
